@@ -1,15 +1,9 @@
 export default function Home() {
   return (
     <div>
-      <header>
-        <h1>Home</h1>
-      </header>
       <main>
-        Main
+        <h2>Main - Home</h2>
       </main>
-      <footer>
-        Footer
-      </footer>
     </div>
   );
 }
