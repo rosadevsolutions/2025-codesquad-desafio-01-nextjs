@@ -1,15 +1,9 @@
 export default function Login() {
   return (
     <div>
-      <header>
-        <h1>Login</h1>
-      </header>
       <main>
-        Main
+        <h2>Main - Login</h2>
       </main>
-      <footer>
-        Footer
-      </footer>
     </div>
   );
 }
