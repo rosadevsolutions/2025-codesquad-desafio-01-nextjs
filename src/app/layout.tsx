@@ -1,13 +1,10 @@
-import { Footer } from "@/components/footer/footer";
-import { Form } from "@/components/form/form";
-import { Header } from "@/components/header/header";
 import type { Metadata } from "next";
 import "./globals.css";
+import "./reset.css";
 
 export const metadata : Metadata = {
-  title: 'Rosadev Solutions - Dessenvolvimento Web',
+  title: 'SISPAR - Novo Portal',
   description: 'Portfólio de Romulo Rosa - Desenvolvedor Full Stack',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
   openGraph : {
     images: ['/images/rosadev-thumb.png']
   }
@@ -21,10 +18,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`antialiased`}>
-        <Header />
         {children}
-        <Form />
-        <Footer />
       </body>
     </html>
   );
