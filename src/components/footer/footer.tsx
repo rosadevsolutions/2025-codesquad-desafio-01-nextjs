@@ -1,7 +1,12 @@
+'use client';
+import * as S from './styles';
+
 export function Footer(){
   return(
-    <header>
-      <h2>Footer</h2>
-    </header>
+    <S.FooterWrapper>
+      <S.FooterContainer>
+        <S.FooterCopyright>@2025 - rosadevsolutions</S.FooterCopyright>
+      </S.FooterContainer>
+    </S.FooterWrapper>
   );
 }
